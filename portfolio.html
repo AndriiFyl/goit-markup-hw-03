@@ -21,32 +21,34 @@
   <body>
     <!--Шапка сайта-->
     <header class="page-header">
-      <div class="container">
-        <nav>
+      <div class="container main-nav">
+        <nav class="nav-menu">
           <a class="logo-site" href="./index.html"
             ><span class="logo-part">Web</span>Studio</a
           >
-          <ul class="list">
-            <li><a class="link-nav" href="./index.html">Студия</a></li>
-            <li>
+          <ul class="list site-nav">
+            <li class="item">
+              <a class="link-nav" href="./index.html">Студия</a>
+            </li>
+            <li class="item">
               <a class="link-nav current" href="./portfolio.html">Портфолио</a>
             </li>
-            <li><a class="link-nav" href="">Контакты</a></li>
-          </ul>
-
-          <ul class="list">
-            <li>
-              <a class="link-contacts" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="link-contacts" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
+            <li class="item"><a class="link-nav" href="">Контакты</a></li>
           </ul>
         </nav>
+
+        <ul class="list contact-nav">
+          <li class="item">
+            <a class="link-contacts" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a class="link-contacts" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -56,21 +58,29 @@
         <div class="container portfolio">
           <div class="filter-portfolio">
             <h1 class="title visually-hidden">Наши направления</h1>
-            <ul class="list">
-              <li><button class="btn-port" type="button">Все</button></li>
-              <li><button class="btn-port" type="button">Веб-сайты</button></li>
-              <li>
-                <button class="btn-port" type="button">Приложения</button>
+            <ul class="list filter">
+              <li class="item-filter">
+                <button class="btn-filter" type="button">Все</button>
               </li>
-              <li><button class="btn-port" type="button">Дизайн</button></li>
-              <li><button class="btn-port" type="button">Маркетинг</button></li>
+              <li class="item-filter">
+                <button class="btn-filter" type="button">Веб-сайты</button>
+              </li>
+              <li class="item-filter">
+                <button class="btn-filter" type="button">Приложения</button>
+              </li>
+              <li class="item-filter">
+                <button class="btn-filter" type="button">Дизайн</button>
+              </li>
+              <li class="item-filter">
+                <button class="btn-filter" type="button">Маркетинг</button>
+              </li>
             </ul>
           </div>
 
           <div class="work-examples">
             <h2 class="title visually-hidden">Примеры работ</h2>
-            <ul class="list">
-              <li>
+            <ul class="list works">
+              <li class="item work">
                 <a class="link-works" href="">
                   <img
                     src="./images/portfolio/Технокряк.jpg"
@@ -82,7 +92,7 @@
                 </a>
               </li>
 
-              <li>
+              <li class="item work">
                 <a class="link-works" href="">
                   <img
                     src="./images/portfolio/NewOrlean.jpg"
@@ -93,7 +103,7 @@
                   <p class="text-works">Дизайн</p>
                 </a>
               </li>
-              <li>
+              <li class="item work">
                 <a class="link-works" href="">
                   <img
                     src="./images/portfolio/Seafood.jpg"
@@ -104,7 +114,7 @@
                   <p class="text-works">Приложение</p>
                 </a>
               </li>
-              <li>
+              <li class="item work">
                 <a class="link-works" href="">
                   <img
                     src="./images/portfolio/Prime.jpg"
@@ -115,7 +125,7 @@
                   <p class="text-works">Маркетинг</p>
                 </a>
               </li>
-              <li>
+              <li class="item work">
                 <a class="link-works" href="">
                   <img
                     src="./images/portfolio/Boxes.jpg"
@@ -126,7 +136,7 @@
                   <p class="text-works">Приложение</p>
                 </a>
               </li>
-              <li>
+              <li class="item work">
                 <a class="link-works" href="">
                   <img
                     src="./images/portfolio/Inspiration.jpg"
@@ -138,7 +148,7 @@
                 </a>
               </li>
 
-              <li>
+              <li class="item work">
                 <a class="link-works" href="">
                   <img
                     src="./images/portfolio/Limited.jpg"
@@ -150,7 +160,7 @@
                 </a>
               </li>
 
-              <li>
+              <li class="item work">
                 <a class="link-works" href="">
                   <img
                     src="./images/portfolio/Lab.jpg"
@@ -162,7 +172,7 @@
                 </a>
               </li>
 
-              <li>
+              <li class="item work">
                 <a class="link-works" href="">
                   <img
                     src="./images/portfolio/Growing.jpg"
@@ -181,15 +191,15 @@
 
     <!--Контакты-->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer">
         <a class="logo-footer" href="./index.html"
           ><span class="logo-part">Web</span>Studio</a
         >
         <address class="adress">
           <p class="text-adress">г. Киев, пр-т Леси Украинки,</p>
-          <ul class="list">
+          <ul class="list adress">
             <li>
-              <a class="link-adress" href="mailto:info@devstudio.com"
+              <a class="link-adress mail" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
