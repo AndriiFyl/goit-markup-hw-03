@@ -21,27 +21,29 @@
   <body>
     <!--Шапка сайта-->
     <header class="page-header">
-      <div class="container">
-        <nav>
+      <div class="container main-nav">
+        <nav class="nav-menu">
           <a class="logo-site" href="./index.html"
             ><span class="logo-part">Web</span>Studio</a
           >
-          <ul class="list">
-            <li><a class="link-nav current" href="./index.html">Студия</a></li>
-            <li>
+          <ul class="list site-nav">
+            <li class="item">
+              <a class="link-nav current" href="./index.html">Студия</a>
+            </li>
+            <li class="item">
               <a class="link-nav" href="./portfolio.html">Портфолио</a>
             </li>
-            <li><a class="link-nav" href="">Контакты</a></li>
+            <li class="item"><a class="link-nav" href="">Контакты</a></li>
           </ul>
         </nav>
 
-        <ul class="list">
-          <li>
+        <ul class="list contact-nav">
+          <li class="item">
             <a class="link-contacts" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="item">
             <a class="link-contacts" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
@@ -62,31 +64,31 @@
 
       <!--Наши достоинства-->
 
-      <section class="container">
-        <h2>Наши достоинства</h2>
-        <ul class="list">
-          <li>
+      <section class="container values">
+        <h2 class="title visually-hidden">Наши достоинства</h2>
+        <ul class="list values">
+          <li class="item-values">
             <h3 class="title-values">Внимание к деталям</h3>
             <p class="text-values">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="item-values">
             <h3 class="title-values">Пунктуальность</h3>
             <p class="text-values">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="item-values">
             <h3 class="title-values">Планирование</h3>
             <p class="text-values">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="item-values">
             <h3 class="title-values">Современные технологии</h3>
             <p class="text-values">
               Значимость этих проблем настолько очевидна, что реализация
@@ -98,24 +100,24 @@
 
       <!--Чем мы занимаемся-->
 
-      <section class="container">
+      <section class="container doing">
         <h2 class="heading-section">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
+        <ul class="list doing">
+          <li class="item-doing">
             <img
               src="./images/work_on_laptop.jpg"
               alt="работа на ноутбуке"
               width="370"
             />
           </li>
-          <li>
+          <li class="item-doing">
             <img
               src="./images/laptop_and_phone.jpg"
               alt="ноутбук и телефон"
               width="370"
             />
           </li>
-          <li>
+          <li class="item-doing">
             <img src="./images/tablet.jpg" alt="планшет" width="370" />
           </li>
         </ul>
@@ -124,46 +126,46 @@
       <!--Наша команда-->
 
       <section class="section team">
-        <div class="container">
+        <div class="container team">
           <h2 class="heading-section">Наша команда</h2>
-          <ul class="list">
-            <li>
+          <ul class="list team">
+            <li class="item-team">
               <img
                 src="./images/сотрудник1.jpg"
                 alt="сотрудник 1"
                 width="270"
               />
-              <h3 class="title">Игорь Демьяненко</h3>
+              <h3 class="title-team">Игорь Демьяненко</h3>
               <p class="title-info" lang="en">Product Designer</p>
             </li>
 
-            <li>
+            <li class="item-team">
               <img
                 src="./images/сотрудница2.jpg"
                 alt="сотрудница 2"
                 width="270"
               />
-              <h3 class="title">Ольга Репина</h3>
+              <h3 class="title-team">Ольга Репина</h3>
               <p class="title-info" lang="en">Frontend Developer</p>
             </li>
 
-            <li>
+            <li class="item-team">
               <img
                 src="./images/сотрудник3.jpg"
                 alt="сотрудник 3"
                 width="270"
               />
-              <h3 class="title">Николай Тарасов</h3>
+              <h3 class="title-team">Николай Тарасов</h3>
               <p class="title-info" lang="en">Marketing</p>
             </li>
 
-            <li>
+            <li class="item-team">
               <img
                 src="./images/сотрудник4.jpg"
                 alt="сотрудник 4"
                 width="270"
               />
-              <h3 class="title">Михаил Ермаков</h3>
+              <h3 class="title-team">Михаил Ермаков</h3>
               <p class="title-info" lang="en">UI Designer</p>
             </li>
           </ul>
@@ -174,15 +176,15 @@
     <!--Контакты-->
 
     <footer class="footer">
-      <div class="container">
+      <div class="container footer">
         <a class="logo-footer" href="./index.html"
           ><span class="logo-part">Web</span>Studio</a
         >
         <address class="adress">
           <p class="text-adress">г. Киев, пр-т Леси Украинки,</p>
-          <ul class="list">
+          <ul class="list adress">
             <li>
-              <a class="link-adress" href="mailto:info@devstudio.com"
+              <a class="link-adress mail" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
