@@ -64,7 +64,7 @@ p {
 }
 
 .page-header {
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
    
 }
 
@@ -139,6 +139,7 @@ p {
 }
 
  .link-contacts {
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -274,11 +275,9 @@ p {
 
     background-color: #F5F4FA;
    
-
 }
 
  .title-team {
-    margin-top: 30px;
     margin-bottom: 10px;
 
     font-weight: 500;
@@ -291,6 +290,11 @@ p {
  .list.team {
     display: flex;
     flex-wrap: wrap;
+ }
+
+ .team-info {
+     padding-top: 30px;
+     padding-bottom: 30px;
  }
 
  .item-team {
@@ -309,16 +313,16 @@ p {
  }
 
  /* Footer */
- .footer {
-     
+ .footer.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
      background-color: var(--secondary-background-color);
-     height: 252px;
  }
 
+ 
 .logo-footer {
     display: inline-block;
     margin-bottom: 20px;
-    margin-top: 60px;
 
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -352,8 +356,8 @@ p {
     text-decoration: none;
 }
 
-.link-adress.mail {
-margin-bottom: 9px;
+.item-adress:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 /* Страница Портфолио */
@@ -363,13 +367,11 @@ margin-bottom: 9px;
     padding-bottom: 94px;
 }
 
-.filter-portfolio {
-    margin-bottom: 50px;
-}
 
 .list.filter {
     
     display: flex;  
+    margin-bottom: 50px;
     justify-content: center;
 
 }
@@ -391,10 +393,9 @@ cursor: pointer;
 }
 
 
-.list.filter .btn-filter {
-    margin-left:8px;
+.item-filter:not(:last-child) {
+    margin-right:8px;
 }
-
 
 
 .btn-filter:hover,
@@ -402,11 +403,6 @@ cursor: pointer;
     background-color: #2196F3;
     color: #FFFFFF;   
 } 
-
-
-.work-examples {
-text-align: center;
-}
 
 .list.works {
 display: flex;
@@ -431,7 +427,6 @@ margin-bottom: 30px;
 }
 
 .heding-works {
-    margin-top: 20px;
     margin-bottom: 4px;
     
     font-weight: 700;
@@ -448,6 +443,15 @@ margin-bottom: 30px;
     color:#757575;
 }
 
+.description-work {
+ padding-top: 20px;
+ padding-right: 24px;
+ padding-bottom: 20px;
+ padding-left: 24px;
+ border-right: 1px solid #EEEEEE; 
+ border-bottom: 1px solid #EEEEEE; 
+ border-left: 1px solid #EEEEEE; 
+}
 
 
 
