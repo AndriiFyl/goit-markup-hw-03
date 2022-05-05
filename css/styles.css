@@ -48,6 +48,11 @@ p {
     margin-bottom: 0;
 }
 
+img {
+    display: block;
+    max-width:100%;
+}
+
 .list {
     padding: 0;
     margin: 0;
@@ -62,6 +67,7 @@ p {
     padding-right: 15px;
     width: 1200px;
 }
+
 
 .page-header {
     border-bottom: 1px solid #ECECEC;
@@ -195,7 +201,7 @@ p {
 
  /* Наши достоинства */
 
- .container.values {
+ .values-section {
      padding-top: 94px;
      padding-bottom: 94px;
  }
@@ -236,7 +242,9 @@ p {
 
  /* Чем мы занимаемся */
 
- .container.doing {
+
+
+ .section-doing {
      padding-bottom: 94px;
  }
 
@@ -260,6 +268,12 @@ p {
 .item-doing {
     margin-right: 30px;
 }
+
+
+.picture {
+    display: block;
+}
+
 
 .item-doing:nth-child(3n) {
     margin-right: 0;
@@ -452,6 +466,5 @@ margin-bottom: 30px;
  border-bottom: 1px solid #EEEEEE; 
  border-left: 1px solid #EEEEEE; 
 }
-
 
 
